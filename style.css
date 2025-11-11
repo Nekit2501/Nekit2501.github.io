@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  line-height: 1.6;
+  max-width: 800px;
+  max-height: 800px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  max-height: 350px;
+
+  /* height: 200px; */
+  margin: 35px;
+
+  position: relative;
+}
+.heart {
+  position: absolute;
+  /* width: 24px;
+  height: 24px; */
+
+  fill: red;
+}
+.H {
+  top: -25px;
+  left: -25px;
+}
+.T {
+  bottom: -45%;
+  right: -89%;
+}
+.huina {
+  margin: 150px 25px;
+  bottom: 20px;
+  height: 150px;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar2 {
+  width: 150px;
+  height: 150px;
+}
+.h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+h2 {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
